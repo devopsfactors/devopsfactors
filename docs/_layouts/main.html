@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>{{ site.title }}</title>
+    <meta name="theme-color" content="#630fcd"/>
+    <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+          crossorigin="anonymous"
+          rel="stylesheet"/>
+    <link href="{{ site.url }}/devopsfactors/css/main.css" rel="stylesheet"/>
+    <link href="{{ site.url }}/css/main.css" rel="stylesheet"/>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119118163-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-119118163-1');
+    </script>
+</head>
+<body>
+{% include header.html %}
+<main role="main">
+    {% include intro.html %}
+    <div class="container">{{ content }}</div>
+</main>
+{% include footer.html %}
+</body>
+</html>

@@ -1,0 +1,13 @@
+source: "."
+encoding: UTF-8
+
+title: "DevOps Factors"
+description: "DevOps Factors"
+
+collections:
+  factors:
+    output: true
+
+sass:
+  sass_dir: _sass
+  style: compressed
