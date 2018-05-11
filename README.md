@@ -5,7 +5,7 @@
     12 паттернов, которыми мы руководствуемся в работе DevOps
     <br/>
     <br/>
-    <a href="https://t.me/devopsengineer">Telegram @devopsengineer</a>
+    <a href="https://t.me/devopsengineer">Telegram</a>
   </p>
 </p>
 

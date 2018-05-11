@@ -1,19 +1,31 @@
 ---
-layout: home
+layout: main
 ---
 
 {% assign factor_items = site.factors | sort: 'number' %}
 
 {% for factor in factor_items %}
-<div class="card mb-3" id="factore-{{ factor.number }}-{{ factor.anchor }}">
-    <div class="card-body">
-        <h3>
-            {{ factor.number }}. {{ factor.title }}
-            <a href="{{ site.url }}#factore-{{ factor.number }}-{{ factor.anchor }}" class="factor-anchor">#</a>
-        </h3>
-        <p>{{ factor.output }}</p>
+    {% capture factor_id %}factore-{{ factor.number }}-{{ factor.anchor }}{% endcapture %}
+    <div class="factor card mb-3" id="{{ factor_id }}">
+        <div class="card-body">
+            <h3 class="factor-title">
+                {{ factor.number }}. {{ factor.title }}
+                <a href="{{ site.url }}#{{factor_id}}" class="factor-anchor">#</a>
+            </h3>
+            <p>{{ factor.output }}</p>
+
+            <div >
+                {% if factor.anti_pattern %}
+                <h5>Антипаттерн</h5>
+                <ul class="text-muted">
+                    {% for ap in factor.anti_pattern %}
+                    <li>{{ ap }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </div>
+        </div>
     </div>
-</div>
 {% endfor %}
 
 

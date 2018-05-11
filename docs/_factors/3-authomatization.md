@@ -2,6 +2,8 @@
 title: "Автоматизация"
 number: 3
 anchor: authomatization
+anti_pattern:
+    - "Мануальные недокументируемые изменения"
 ---
 
 Концепт Infrastructure as Code является основополагающим в DevOps методологии. IaC важна и нужна чтобы 
