@@ -1,0 +1,9 @@
+source: "."
+encoding: UTF-8
+
+title: "DevOps Factors"
+description: "DevOps Factors"
+
+collections:
+  factors:
+    output: true
