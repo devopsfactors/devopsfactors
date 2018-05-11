@@ -1,3 +1,7 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i&subset=cyrillic,cyrillic-ext,latin-ext');
 
 :root {
@@ -7,4 +11,10 @@
 body {
     font-size: 16px;
     font-family: 'Ubuntu', sans-serif;
+}
+
+
+.intro {
+    text-align: center;
+    margin: 32px 0;
 }
