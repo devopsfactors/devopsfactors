@@ -1,8 +1,10 @@
 source: "."
 encoding: UTF-8
 
-title: "DevOps Factors"
-description: "DevOps Factors"
+title: "12 паттернов, которыми мы руководствуемся в работе - DevOps Factors"
+description: >
+  12 паттернов, которыми мы руководствуемся в работе DevOps - о приоритетах, о коммуникации, о автоматизации,
+  о структуре команды, о шаринге опыта, о механизмах мониторинга, о Continious Integration и другое
 
 collections:
   factors:
