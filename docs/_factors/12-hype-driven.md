@@ -1,5 +1,5 @@
 ---
-title: "Hype-driven принятие решений"
+title: "Рациональное принятие решений"
 number: 12
 anchor: hype-driven
 anti_pattern:

@@ -5,7 +5,7 @@ layout: main
 {% assign factor_items = site.factors | sort: 'number' %}
 
 {% for factor in factor_items %}
-    {% capture factor_id %}factore-{{ factor.number }}-{{ factor.anchor }}{% endcapture %}
+    {% capture factor_id %}factor-{{ factor.number }}-{{ factor.anchor }}{% endcapture %}
     <div class="factor card mb-3" id="{{ factor_id }}">
         <div class="card-body">
             <h3 class="factor-title">
