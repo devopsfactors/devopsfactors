@@ -1,10 +1,10 @@
 source: "."
 encoding: UTF-8
 
-title: "Методика построения правильной DevOps культуры - DevOps Factors"
+title: "DevOps Factors: Methodology for building proper DevOps culture"
 description: >
-  12 паттернов, которыми мы руководствуемся в работе DevOps - о приоритетах, о коммуникации, о автоматизации,
-  о структуре команды, о шаринге опыта, о механизмах мониторинга, о Continious Integration и другое
+  12 patterns for DevOps culture - about priorities, communication, automation, the structure of the team,
+  sharing experience, monitoring mechanisms, Continious Integration, etc.
 
 collections:
   factors:
