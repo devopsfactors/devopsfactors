@@ -1,13 +1,9 @@
 ---
-title: "Рациональное принятие решений"
+title: "Rational decision making"
 number: 12
 anchor: hype-driven
 anti_pattern:
-    - "Вышла новая бета-версия фреймворка Х, завтра переезжаем"
+    - "a new beta version of the framework X is released, tomorrow we’ll move"
 ---
 
-На данный момент существует огромное колличесво инструметов для решения каждой отдельно взятой проблемы, и 
-нужно максимально правильно выбрать right tool for the job и не гнаться за модными трендами, которые постоянно 
-появляются. Это рационально для решения проблем низкого и среднего уровней. В случае же дизайна архитектурных 
-решений стоит обратить внимание на современные практики и подходы - в результате это позволит косвенно секономить 
-время и деньги на переделывании и внедрении "костылей".
+There are a huge number of tools to solve each individual problem, and you need to choose the right tool for the job as correctly as possible and not chase the fashion trends that are constantly appearing. This is rational for solving problems of low and medium levels. In the case of the design architectural solutions it is worth paying attention to modern practices and approaches. As a result, this will indirectly save time and money on remodeling and implementing “bicycle”. There are two good rules here: 'plan before execute' and 'code wins arguments' (in the sense that it is better to try and compare several solutions on your own tasks than blindly grab the tools from Github).

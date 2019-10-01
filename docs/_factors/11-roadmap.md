@@ -1,11 +1,9 @@
 ---
-title: "Роадмап, мувмент"
+title: "Roadmap"
 number: 11
 anchor: roadmap
 anti_pattern:
-    - "Четко и детально расписывать план развития на ближайшие 10 лет"
+    - "clearly and thoroughly outline the development plan for the next 10 years"
 ---
 
-У хорошей DevOps команды должен быть нечеткий план развития на ближайшие 3-6 месяцев с основной глобальной целью, 
-которую диктует бизнес. План не имеет смысла детализировать и описывать техническую реализацию - очень вероятно, 
-что команда в определенные моменты будет от него отходить, и менять тактику достижения глобальной цели.
+A good DevOps team should have a fuzzy development plan for the next 3-6 months with the main global goal that reach business values. There is no point in creating detailed plan and describe the technical implementation - it is very likely that the team will depart from it at certain points and change the tactics of achieving the global goal.

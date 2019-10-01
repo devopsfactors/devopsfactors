@@ -1,11 +1,9 @@
 ---
-title: "Коммуникация"
+title: "Communication"
 number: 2
 anchor: communication
 anti_pattern:
-    - "Постоянно сидеть в наушниках, и пилить свою часть системы"
+    - "constantly sit in the headphones, and work only on your part of the system"
 ---
 
-Это очень важно. Коммуникация это основной фундамент DevOps. Ваши Soft skills необходимы и часто важнее технического 
-бэкграунда. Приходя в новую компанию, Вам, скорее всего, придется продвигать культуру, ломать стереотипы и часто 
-встречать poor engagement людей в около-DevOps сфере.
+Communication is very important. Communication is the foundation of DevOps. Your Soft skills are necessary and often more important than the technical background. Coming to a new company, you will most likely have to promote culture, break stereotypes and often meet poor engagement people in the near-DevOps sphere.
