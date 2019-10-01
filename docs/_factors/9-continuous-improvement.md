@@ -1,9 +1,9 @@
 ---
-title: "Непрерывное улучшение"
+title: "Continuous improvement"
 number: 9
 anchor: continuous-improvement
 anti_pattern:
-    - "Долгое время до мельчайших деталей продумывать нюансы дизайна системы, но ничего не внедрять"
+    - "for a long time, to the smallest details, think through the nuances of the system design, but do not implement anything"
 ---
 
-Главной особенностью DevOps методологии есть постоянное итеративное улучшение. Не нужно бесконечное количество времени теоретически проектировать самую отказоустойчивую и стабильную систему с идеальными процессами - а наоборот, циклически внедрять улучшения и получать быстрый фидбек. В таком случае удастся спроектировать платформу, которая будет отвечать большинству ваших требований за минимальное количество времени. Нужно заметить, что в процессе развития платформы происходит постоянный профессиональный рост.
+The main feature of DevOps methodology is continuous iterative improvement. It's not necessary to theoretically design the most fault-tolerant and stable system with ideal processes for an infinite amount of time - on the contrary, cyclically introduce improvements and receive fast feedback. In this case, it will be possible to design a platform that will meet most of your requirements in a minimum amount of time. In the process of development of the platform must be a constant professional growth.

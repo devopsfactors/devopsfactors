@@ -1,9 +1,9 @@
 ---
-title: "Структура команды"
+title: "Team structure"
 number: 4
 anchor: team
 anti_pattern:
-    - "Закреплять членов команды за продуктом или частью системы"
+    - "assign team members to a product or part of a system"
 ---
 
-В хорошей DevOps команде должна быть полная взаимозаменяемость, плоская структура и взаимопомощь. В случае, если у Вас в компании несколько продуктов или выделенных частей системы необходимо периодически брать задачи не из своей основной специализации для расширения кругозора и культивирования взаимозаменяемости. Хорошая DevOps команда снаружи должна выглядеть как цельная система - все члены команды могут выполнить задачу, которая поступила.
+A good DevOps team should have full interchangeability, a flat structure and mutual assistance. If you have several products or dedicated parts of the system in your company, it is necessary to periodically take tasks not from your main specialization to expand your horizons and cultivate interchangeability. A good DevOps team should look like a complete system - all team members can complete the task that has arrived.

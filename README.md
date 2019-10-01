@@ -1,87 +1,88 @@
 <p align="center">
-  <h3 align="center">DevOps Factors</h3>
+  <h3 align="center">devopsfactors</h3>
 
   <p align="center">
-    Методика построения правильной DevOps культуры
+    Methodology for building proper DevOps culture
   </p>
 </p>
 
 <br>
 
 
-### 1. Приоритеты
-Приоритеты у Ops и Dev команд должны быть одинаковыми. Желательно что б был один и тот же менеджер. Такое объединение позволяет ввести error budget и снижает накладные расходы на коммуникацию между командами. Этот пункт самый важный и не может меняться в зависимости от имплементации.
+### 1. Priorities
+Priorities for Ops and Dev teams should be the same. One managed for both teams improving culture as well. This combination allows you to implement error budget and reduce the overhead of communication between teams. Priority item is the most important and cannot be changed (and not depends on the implementation).
 
-Антипаттерн: 
-> Ops отвечает за стабильность, а Dev за фичи
+Design smell:
+> Ops is responsible for stability, and Dev for features
 
-### 2. Коммуникация 
-Это очень важно. Коммуникация это основной фундамент DevOps. Ваши Soft skills необходимы и часто важнее технического бэкграунда. Приходя в новую компанию, Вам, скорее всего, придется продвигать культуру, ломать стереотипы и часто встречать poor engagement людей в около-DevOps сфере.
+### 2. Communication
+Communication is very important. Communication is the foundation of DevOps. Your Soft skills are necessary and often more important than the technical background. Coming to a new company, you will most likely have to promote culture, break stereotypes and often meet poor engagement people in the near-DevOps sphere.
 
-Антипаттерн: 
-> постоянно сидеть в наушниках, и пилить свою часть системы
+Design smell:
+> constantly sit in the headphones, and work only on your part of the system
 
-### 3. Автоматизация
-Концепт Infrastructure as Code является основополагающим в DevOps методологии. 
-IaC важна и нужна, чтобы восстановиться после инцидента, при минимальных затратах усилий переехать на другую платформу, версионировать изменения для прозрачности управления, удобства работы над инфраструктурой в команде, возможности отката на предыдущее состояние. Также инфраструктуру необходимо качественно тестировать, согласно принципам пирамиды тестирования(юнит, интеграционные, системные тесты).
+### 3. Automation
+The concept of Infrastructure as Code is fundamental to the DevOps methodology.
+IaC is important and necessary in order to recover from an incident, with a minimum of effort to move to another platform, versioned changes for transparency of management, the convenience of working on infrastructure in a team, and the ability to roll back to a previous state. Also, the infrastructure must be tested qualitatively, according to the principles of the testing pyramid (unit, integration, system tests).
 
-Антипаттерн: 
-> мануальные не документируемые изменения 
+Design smell:
+> manual undocumented changes
 
-### 4. Структура команды
-В хорошей DevOps команде должна быть полная взаимозаменяемость, плоская структура и взаимопомощь. В случае, если у Вас в компании несколько продуктов или выделенных частей системы необходимо периодически брать задачи не из своей основной специализации для расширения кругозора и культивирования взаимозаменяемости. Хорошая DevOps команда снаружи должна выглядеть как цельная система - все члены команды могут выполнить задачу, которая поступила.
+### 4. Team structure
+A good DevOps team should have full interchangeability, a flat structure and mutual assistance. If you have several products or dedicated parts of the system in your company, it is necessary to periodically take tasks not from your main specialization to expand your horizons and cultivate interchangeability. A good DevOps team should look like a complete system - all team members can complete the task that has arrived.
 
-Антипаттерн: 
-> закреплять членов команды за продуктом или частью системы
+Design smell:
+> assign team members to a product or part of a system
 
-### 5. Шаринг опыта
-Сильный knowledge gap даже внутри одной команды всегда влечет за собой проблемы. Совершенно разная экспертиза у людей по разным компонентам платформы всегда будет понижать перфоманс команды и усложнять предсказания по деливери. Наличие уникальных скилов у одного инженера делает его незаменимым и рано или поздно он превращается в живую point of failure. Поэтому нужно стараннее заранее определять gap'ы и их критичность, оперативно устранять их путем обмена опытом и информацией. Качественная документация и прозрачность процесса разработки сильно упрощает этот процесс.
+### 5. Sharing experience
+A strong knowledge gap, even within the same team, always entails problems. A completely different expertise in people on different components of the platform will always lower the team’s performance and complicate the prediction of delivery. The presence of unique skills in one engineer makes him indispensable and sooner or later he turns into a living point of failure. Therefore, it is necessary to pre-determine gaps and their criticality in advance, quickly eliminate them by exchanging experience and information. High-quality documentation and transparency of the development process greatly simplifies this process.
 
-Антипаттерн: 
-> в одиночку напилить тулзовину, в коде и использовании которой может разобраться только ее создатель, оставить ее без документации и уволиться.
-> деливерить высокоприоритетную таску, не спрашивая мнений своих тиммейтов и не делиться результатами ее выполнения.
+Design smell:
+> to file alone the tool, in the code and use of which only its creator can figure out, leave it without documentation and quit.
+> share high priority tasks without asking for the opinions of your teammates and not share the results of its implementation.
 
-### 6. Мониторинг
-Нужно предиктить проблемы, а не тушить пожары. 
+### 6. Monitoring
+DevOps team must predict problems, not just put out fires.
 
-### 7. Continious Integration 
-CI - это процесс, описывающий последовательность действий для сборки приложения. В результате CI процесса создается ценность - артефакт. Артефакт - это собранное приложение, готовое к дальнейшей доставке. 
-CI процесс, взаимодействуя с пирамидой тестирования дает уверенность в артефакте, и гарантии что собранное приложение точно будет работать. В таком случае у нас появляется уверенность в изменениях, и появляется возможность доставлять ценность пользователям намного чаще.
+### 7. Continuous Integration
+CI is a process describes the sequence of steps for building an application. Artifact must be created as result of the CI process. An artifact is a compiled application, ready for further delivery.
+The CI process with the testing pyramid gives confidence in the artifact, and guarantees that the assembled application will definitely work. In this case, we gain confidence in the changes, and it becomes possible to deliver value to users more often.
 
-Антипаттерн: 
-> не тестировать приложение 
+Design smell:
+> do not test the application
 
-> реализовывать доставку артефакта в контексте CI процесса
+> implement artifact delivery in scope of the CI process
 
-### 8. Continious Delivery 
-CD - это процесс, описывающий последовательность действий для доставки артефакта. Основной концепт состоит в унификации этого процесса для всех окружений. Существуют разные стратегии доставки: blue/green, canary, и другие. В большинстве случаев будет справедливым утверждение, что чем мельче доставляемые изменения, тем меньше вероятность поломать работающий продукт. Доставка ценности должна быть всегда в рабочем состоянии и по первому требованию бизнеса доставлять ценность клиентам.
-Следующим этапом развития Continious Delivery является Continious Deployment. 
+### 8. Continuous Delivery
+CD describes a process for delivering an artifact. The basic concept is to unify this process for all environments. There are different delivery strategies: blue / green, canary, and others. In most cases smaller changes delivered have less 
+probability to break production environment. Value delivery must always be in working state and deliver value to customers upon the first business request.
+The next future of Continious Delivery is Continious Deployment.
 
-Антипаттерн: 
-> ручная выкатка на окружение по чек-листу
+Design smell:
+> manual deployment to the environment by checklist
 
-### 9. Непрерывное улучшение 
-Главной особенностью DevOps методологии есть постоянное итеративное улучшение. Не нужно бесконечное количество времени теоретически проектировать самую отказоустойчивую и стабильную систему с идеальными процессами - а наоборот, циклически внедрять улучшения и получать быстрый фидбек. В таком случае удастся спроектировать платформу, которая будет отвечать большинству ваших требований за минимальное количество времени. Нужно заметить, что в процессе развития платформы происходит постоянный профессиональный рост.
+### 9. Continuous improvement
+The main feature of DevOps methodology is continuous iterative improvement. It's not necessary to theoretically design the most fault-tolerant and stable system with ideal processes for an infinite amount of time - on the contrary, cyclically introduce improvements and receive fast feedback. In this case, it will be possible to design a platform that will meet most of your requirements in a minimum amount of time. In the process of development of the platform must be a constant professional growth.
 
-Антипаттерны: 
-> долгое время до мельчайших деталей продумывать нюансы дизайна системы, но ничего не внедрять 
+Antipatterns:
+> for a long time, to the smallest details, think through the nuances of the system design, but do not implement anything
 
-### 10. Инцидент менеджмент
-Если у Вас что-то пошло не так - сначала нужно чинить. И только когда система пришла в стабильное рабочее состояние, начать разбираться что же это было, и как не допустить в будущем. Как правило, после уведомления о происшествии, дежурный Support быстро оценивает проблему и проблемные компоненты, собирает людей с этой зоной ответственности и руководит процессом восстановления. По результатам необходимо описать инцидент в баг-трекере, провести ретроспективу и принять решения, необходимые для предотвращения в будущем.
+### 10. Incident Management
+If something went wrong with your production - you need to fix it first. And only when the system came to a stable working condition, you can begin to understand what's happened and how to prevent it in the future. As a rule, after notification of an incident, the support engineer quickly evaluates the problem and problem components, gathers people with this area of ​​responsibility and manages the recovery process. According to the results, it is necessary to describe the incident in the bug tracker, conduct a retrospective and make the decisions necessary to prevent it in the future.
 
-Антипаттерны: 
-> выяснять, почему система не работает, вместо оперативного восстановления
+Design smell:
+> find out why the system does not work, instead of online recovery
 
-> писать документацию о том как чинить, вместо предотвращать глобально
+> write documentation on how to repair, instead of preventing globally
 
-### 11. Роадмап, мувмент
-У хорошей DevOps команды должен быть нечеткий план развития на ближайшие 3-6 месяцев с основной глобальной целью, которую диктует бизнес. План не имеет смысла детализировать и описывать техническую реализацию - очень вероятно, что команда в определенные моменты будет от него отходить, и менять тактику достижения глобальной цели. 
+### 11. Roadmap
+A good DevOps team should have a fuzzy development plan for the next 3-6 months with the main global goal that reach business values. There is no point in creating detailed plan and describe the technical implementation - it is very likely that the team will depart from it at certain points and change the tactics of achieving the global goal.
 
-Антипаттерн: 
-> четко и детально расписывать план развития на ближайшие 10 лет 
+Design smell:
+> clearly and thoroughly outline the development plan for the next 10 years
 
-### 12. Рациональное принятие решений
-На данный момент существует огромное количество инструментов для решения каждой отдельно взятой проблемы, и нужно максимально правильно выбрать right tool for the job и не гнаться за модными трендами, которые постоянно появляются. Это рационально для решения проблем низкого и среднего уровней. В случае же дизайна архитектурных решений стоит обратить внимание на современные практики и подходы - в результате это позволит косвенно сэкономить время и деньги на переделывании и внедрении "костылей". Здесь есть два хороших правила: 'plan before execute' и 'code wins arguments' (в смысле, что лучше попробовать и сравнить несколько решений самому на своих задачах, чем слепо хватать инструменты, о которых где-то услышал)
+### 12. Rational decision making
+There are a huge number of tools to solve each individual problem, and you need to choose the right tool for the job as correctly as possible and not chase the fashion trends that are constantly appearing. This is rational for solving problems of low and medium levels. In the case of the design architectural solutions it is worth paying attention to modern practices and approaches. As a result, this will indirectly save time and money on remodeling and implementing “bicycle”. There are two good rules here: 'plan before execute' and 'code wins arguments' (in the sense that it is better to try and compare several solutions on your own tasks than blindly grab the tools from Github)
 
-Антипаттерн: 
-> вышла новая бета-версия фреймворка Х, завтра переезжаем 
+Design smell:
+> a new beta version of the framework X is released, tomorrow we’ll move

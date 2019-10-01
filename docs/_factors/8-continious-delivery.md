@@ -1,10 +1,11 @@
 ---
-title: "Continious Delivery"
+title: "Continuous Delivery"
 number: 8
-anchor: continious-delivery
+anchor: continuous-delivery
 anti_pattern:
-    - "Ручная выкатка на окружение по чек-листу"
+    - "manual deployment to the environment by checklist"
 ---
 
-CD - это процесс, описывающий последовательность действий для доставки артефакта. Основной концепт состоит в унификации этого процесса для всех окружений. Существуют разные стратегии доставки: blue/green, canary, и другие. В большинстве случаев будет справедливым утверждение, что чем мельче доставляемые изменения, тем меньше вероятность поломать работающий продукт. Доставка ценности должна быть всегда в рабочем состоянии и по первому требованию бизнеса доставлять ценность клиентам.
-Следующим этапом развития *Continious Delivery* является *Continious Deployment*. 
+CD describes a process for delivering an artifact. The basic concept is to unify this process for all environments. There are different delivery strategies: blue / green, canary, and others. In most cases smaller changes delivered have less 
+probability to break production environment. Value delivery must always be in working state and deliver value to customers upon the first business request.
+The next future of Continuous Delivery is Continuous Deployment.

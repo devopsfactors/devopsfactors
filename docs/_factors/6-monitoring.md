@@ -1,7 +1,7 @@
 ---
-title: "Мониторинг"
+title: "Monitoring"
 number: 6
 anchor: monitoring
 ---
 
-Нужно предиктить проблемы, а не тушить пожары.
+DevOps team must predict problems, not just put out fires.
